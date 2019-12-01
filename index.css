@@ -1,0 +1,69 @@
+#square-1 {
+	height: 325px;
+	width:100%;
+	background-color: #001f3f;
+  }
+
+#square-2 {
+  height: 325px;
+  width:100%;
+  background-color: #85144b;
+  }
+
+#square-3 {
+	height: 325px;
+	width:100%;
+	background-color: #7FDB;
+  }
+
+#square-4 {
+	height: 325px;
+	width:100%;
+	background-color:  #39CC;
+  }
+
+.logo-img{
+	position: relative;
+	height: 150px;
+	width: 150px;
+	top: 50%;
+	left: 50%;
+	margin-left: -75px;
+	margin-top: -650px;
+}
+
+.afterimg {
+	position: relative;
+	height: 150px;
+	width: 150px;
+	top: 50%;
+	left: 50%;
+	margin-left: -75px;
+	margin-top: -400px;
+	/*padding-top: -200px;*/
+}
+
+p{
+	position: absolute;
+	height: 150px;
+	width: 500px;
+	top: 25%;
+	left: 50%;
+	margin-left: -20px;
+	margin-top: -500px;
+}
+
+.logo-img-after{
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	top: 70%;
+	left: 35%;
+	margin-left: -200px;
+	margin-top: -250px;
+	animation-direction: alternate;
+
+	transition-property: top, left, border-radius, background-color;
+  	transition-duration: 2s, 1s, 0.5s, 0.5s;
+  	transition-delay: 0s, 0.5s, 1s, 1.5s;
+}
